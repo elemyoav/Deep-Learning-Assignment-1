@@ -1,0 +1,69 @@
+{
+    "lr": "5e-3",
+    "batch_size": "16",
+    "hiddenlayers":[
+        {
+            "hidden_units":"16",
+            "activation": "relu"
+        },
+        {
+            "hidden_units":"32",
+            "activation": "relu"
+        },
+        {
+            "hidden_units":"64",
+            "activation": "relu"
+        }
+    ],
+    "results":[{
+        "number_of_data_points":"20000",
+        "dataset": "swissroll",
+        "training_accuracy": "0.9547",
+        "validation_accuracy": "0.9512",
+        "training_loss": "0.32752549158550576",
+        "validation_loss": "0.3290716167628153"
+        },
+        {
+        "number_of_data_points":"20000",
+        "dataset": "peaks",
+        "training_accuracy": "0.87676",
+        "validation_accuracy": "0.872",
+        "training_loss": "0.44620290458756257",
+        "validation_loss": "0.46816340180103966"
+        },
+        {
+        "number_of_data_points":"20000",
+        "dataset": "gmm",
+        "training_accuracy": "0.92508",
+        "validation_accuracy": "0.9272",
+        "training_loss": "0.3334058970901822",
+        "validation_loss": "0.3562195353418591"
+        },
+        {
+        "number_of_data_points":"200",
+        "dataset": "swissroll",
+        "training_accuracy": "0.915",
+        "validation_accuracy": "0.8486",
+        "training_loss": "0.19722340986246784",
+        "validation_loss": "0.3982639149113306"
+        }
+        ,
+        {
+        "number_of_data_points":"200",
+        "dataset": "peaks",
+        "training_accuracy": "0.995",
+        "validation_accuracy": "0.79344",
+        "training_loss": "0.0432146041103893",
+        "validation_loss": "1.4845142401842517"
+        }
+        ,
+        {
+        "number_of_data_points":"200",
+        "dataset": "gmm",
+        "training_accuracy": "1.0",
+        "validation_accuracy": "0.81776",
+        "training_loss": "0.013321762278303782",
+        "validation_loss": "1.3019116779486766"
+        }
+    ]
+}
